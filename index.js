@@ -66,7 +66,7 @@ function renderLicense(license) {
     if (!license) {
         return ``;
     } else {
-        return `[![${license} License](https://img.shields.io/badge/License-${license}-blue.svg)](https://opensource.org/licenses/${license})`
+        return `[![${license} License](https://img.shields.io/badge/License-${license}-blue)](https://opensource.org/licenses/${license})`
     }
 }
 function generateMarkdown(data) {
@@ -90,7 +90,7 @@ ${data.description}
 ## Installation
 ${data.installation}
 
-** Usage
+## Usage
 ${data.usage}
 
 ## License

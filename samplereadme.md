@@ -1,7 +1,7 @@
 
-# Title Title
+# Title
 
-[![Apache-2 License](https://img.shields.io/badge/License-Apache-2-blue.svg)](https://opensource.org/licenses/Apache-2)
+[![MIT License](https://img.shields.io/badge/License-MIT-blue)](https://opensource.org/licenses/MIT)
 
 ## Table of Contents
 * [Description](#description)
@@ -18,11 +18,11 @@ Sample
 ## Installation
 Sample
 
-** Usage
+## Usage
 Sample
 
 ## License
-This project is covered under the Apache-2 license. To learn more, please click the license badge at the top of the page.
+This project is covered under the MIT license. To learn more, please click the license badge at the top of the page.
 
 ## Contributing
 Sample
