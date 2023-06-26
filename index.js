@@ -70,44 +70,45 @@ function renderLicense(license) {
     }
 }
 function generateMarkdown(data) {
-    return `# ${data.title}
+    return `
+# ${data.title}
 
-    ${renderLicense(data.license)}
+${renderLicense(data.license)}
 
-    ## Table of Contents
-    * [Description](#description)
-    * [Installation](#installation)
-    * [Usage](#usage)
-    * [License](#license)
-    * [Contributing](#contributing)
-    * [Tests](#tests)
-    * [Questions](#questions)
+## Table of Contents
+* [Description](#description)
+* [Installation](#installation)
+* [Usage](#usage)
+* [License](#license)
+* [Contributing](#contributing)
+* [Tests](#tests)
+* [Questions](#questions)
 
-    ## Description
-    ${data.description}
+## Description
+${data.description}
 
-    ## Installation
-    ${data.installation}
+## Installation
+${data.installation}
 
-    ** Usage
-    ${data.usage}
+** Usage
+${data.usage}
 
-    ## License
-    This project is covered under the ${data.license} license. To learn more, please click the license badge at the top of the page.
+## License
+This project is covered under the ${data.license} license. To learn more, please click the license badge at the top of the page.
 
-    ## Contributing
-    ${data.contributing}
+## Contributing
+${data.contributing}
 
-    ## Tests
-    ${data.tests}
+## Tests
+${data.tests}
 
-    ## Questions
-    Have any questions about this project? Get in touch with me!
+## Questions
+Have any questions about this project? Get in touch with me!
 
-    Github: https://github.com/${data.username}
-    Email: ${data.email}
-    
-    `;
+Github: https://github.com/${data.username}
+Email: ${data.email}
+
+`;
 }
 // TODO: Create a function to write README file
 // function writeToFile(fileName, data) {}
