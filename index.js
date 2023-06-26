@@ -36,7 +36,7 @@ inquirer
     },
     {
         type: 'input',
-        message: 'Who contributed to your project?',
+        message: 'What are your contribution guidelines?',
         name: 'contributing',
     },
     {
@@ -110,12 +110,5 @@ Email: ${data.email}
 
 `;
 }
-// TODO: Create a function to write README file
-// function writeToFile(fileName, data) {}
 
-// TODO: Create a function to initialize app
-// function init() {}
-
-// // Function call to initialize app
-// init();
 
