@@ -20,7 +20,8 @@ To use this README generator, clone this repository from Github and download Nod
 
 ## Usage
 To use the generator, run the index.js file in Nodejs using your command line. Fill out each question. A README.md file will then be generated.
-<img src="previewvideo.gif"><br>
+
+<img src="previewvideo.gif">
 View video here - [Screencastify](https://drive.google.com/file/d/1bCV_WKyf9eY48aq3r5jCQmj9TSVCGsF5/view)
 
 ## License
