@@ -13,7 +13,7 @@
 * [Questions](#questions)
 
 ## Description
-This project includes a README generator using node.js. I used starter code and inquirer to complete this project. The user runs the file on node locally in the users command line, and fills out the questions asked. Once all of the questions are complete, a README.md file is created called "samplereadme.md". The file is formatted correctly, and contains all sections needed to satisy the need for a professional readme. 
+This project includes a README generator using node.js. I used starter code and inquirer to complete this project. The user runs the file on node locally in the users command line, and fills out the questions asked. Once all of the questions are complete, a README.md file is created. The file is formatted correctly, and contains all sections needed to satisy the need for a professional readme. 
 
 ## Installation
 To use this README generator, clone this repository from Github and download Nodejs.
@@ -26,9 +26,6 @@ This project is covered under the MIT license. To learn more, please click the l
 
 ## Contributing
 Please see installation instructions above.
-
-## Tests
-na
 
 ## Questions
 Have any questions about this project? Get in touch with me!
