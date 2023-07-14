@@ -57,7 +57,7 @@ inquirer
   ])
   .then((response) => {
     const readMeData = generateMarkdown(response);
-      fs.writeFile('README.md', readMeData, (err) =>
+      fs.writeFile('READMEe.md', readMeData, (err) =>
         err ? console.error(err) : console.log('Success! Your ReadMe has been generated.')
         );
   });
